@@ -1,38 +1,39 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-#title {
-  background-color: #ff4c68;
-  color: white;
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat";
   font-weight: bold;
-  font-size: 1.5rem;
-  margin: 15px;
 }
 
 p {
   color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
 }
 
 /* navigation bar */
@@ -62,7 +63,13 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* title image */
+/* title section */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
 
 .title-image {
   width: 60%;
@@ -73,13 +80,15 @@ p {
 
 /* Features Section */
 #features {
-  padding: 7% 15%;
   background-color: white;
   position: relative;
 }
 
+.feature-title {
+  font-size: 1.5rem;
+}
+
 .feature-box {
-  text-align: center;
   padding: 4.5%;
 }
 
@@ -95,7 +104,6 @@ p {
 /* testinmonial section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: white;
 }
@@ -106,13 +114,14 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 #press {
   background-color: #ef8172;
-  text-align: center;
+
   padding-bottom: 3%;
 }
 
@@ -125,35 +134,27 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Call to action */
 
 #cta {
   background-color: #ff4c68;
-  text-align: center;
-  padding: 7% 15%;
-}
-
-.cta-header {
-  color: white;
-  font-family: "Montserrat";
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
 }
 
 /* Footer */
 
 #footer {
-  text-align: center;
   color: white;
-  padding: 7% 15%;
 }
 .footer-icons {
   color: black;
