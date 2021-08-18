@@ -130,3 +130,16 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* Mobile Style */
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
